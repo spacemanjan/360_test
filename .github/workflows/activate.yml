@@ -1,2 +1,3 @@
-- name: Unity - Activate
+on:
+  name: Unity - Activate
   uses: game-ci/unity-activate@v1.3
