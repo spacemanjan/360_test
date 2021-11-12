@@ -1,6 +1,2 @@
-- uses: game-ci/unity-test-runner@v2
-  env:
-    UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-  with:
-    projectPath: 360_test
-    githubToken: ${{ secrets.GITHUB_TOKEN }}
+- name: Unity - Activate
+  uses: game-ci/unity-activate@v1.3
